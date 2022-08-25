@@ -1,0 +1,137 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url(./assets/home.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+.main {
+    display: flex;
+    gap: 20px;
+    height: 100vh;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+.ancients-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 40%;
+    padding: 20px;
+
+}
+.ancients-container img {
+    width: 200px;
+    height: 260px;
+    cursor: pointer;
+}
+
+
+
+
+.difficulty-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;
+    justify-content: center;
+     visibility: hidden; 
+}
+.difficulty, .kneadDeck {
+    border: 2px solid purple;
+    box-sizing: border-box;
+    color: purple;
+    cursor: pointer;
+    padding: 5px;
+    text-align: center;
+}
+
+.kneadDeck {
+    background-color: red;
+}
+
+
+.deck-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    min-width: 30%;
+    visibility: hidden; 
+}
+
+.deck, .random-deck {
+    background-size: cover;
+    height: 190px;
+    width: 130px;
+}
+.deck {
+    background-image: url(./assets/mythicCardBackground.png);
+    display: none;
+    cursor: pointer;
+}
+.random-deck {
+    display: none;
+    visibility: hidden;
+}
+
+.current-state, .stage-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-height: 30%;
+}
+.current-state {
+    display: none;
+}
+
+.dots-container {
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.dot {
+    align-items: center;
+    border-radius: 50%;
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    width: 30px;
+}
+
+.green {
+    background-color: green;
+}
+.brown {
+    background-color: brown;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.stage-text {
+    color: purple;
+    text-align: center;
+}
+
+.red-text {
+    color: red;
+}
+.deckAllcards {
+    background-image: none;
+}

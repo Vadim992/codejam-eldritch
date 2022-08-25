@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>codejam-eldritch</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="main">
+        <div class="ancients-container"></div>
+
+        <div class="difficulty-container"></div>
+
+        <div class="deck-container">
+             <div class="kneadDeck">Замешать колоду</div>
+             <div class="current-state">
+                <div class="stage-container"> 
+                    <span class="stage-text" >Первая стадия</span>
+                <div class="dots-container" id="firstStage">
+                    <div class="dot green"></div>
+                    <div class="dot brown"></div>
+                    <div class="dot blue"></div>
+                </div>
+                </div>
+                <div class="stage-container"> 
+                    <span class="stage-text">Вторая стадия</span>
+                    <div class="dots-container" id="secondStage">
+                        <div class="dot green"></div>
+                        <div class="dot brown"></div>
+                        <div class="dot blue"></div>
+                    </div>
+                 
+                </div>
+                <div class="stage-container"> 
+                    <span class="stage-text">Третья стадия</span>
+                    <div class="dots-container" id="thirdStage">
+                        <div class="dot green"></div>
+                        <div class="dot brown"></div>
+                        <div class="dot blue"></div>
+                    </div>
+        
+                </div>
+             </div>
+             <div class="deck"></div>
+             <div class="random-deck"></div>
+        </div>
+    </main>
+    <script src="./index.js" type="module"></script>
+</body>
+</html>
